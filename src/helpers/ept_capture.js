@@ -17,7 +17,7 @@ class ept_capture {
                 return this.#eptCount;
             };
         }, {
-            timeout: 1000,
+            timeout: 10000,
             timeoutMsg: 'Expected EPT to be 0 after 10s'
         });
     }

@@ -87,7 +87,7 @@ initialize();
 
 let statsRecorder = new stats_recorder();
 
-for (var run = 1; run <= 1; run++) {
+for (var run = 1; run <= 10; run++) {
     await executeTest(run, statsRecorder);
 }
 

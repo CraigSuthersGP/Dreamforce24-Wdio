@@ -20,10 +20,12 @@ await browser.$('#Login').click();
 
 /*
  * integration - assert truth
+ * e.g. Title = "Sales Home"
  */
 
 /*
- * performance - get resources - memory time network
+ * performance - get resources
+ * e.g. How long did it take. How much memory was used
  */
 
 
